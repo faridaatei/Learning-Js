@@ -12,7 +12,7 @@ calcDiameter(){
 	return 2*this.radius  
 
    }
-   calperimeter(){
+   calcperimeter(){
   
   	return 3.14*this.radius
 
@@ -23,4 +23,3 @@ const circle= new Circle (7);
 console.log( "the area",circle.calcArea());
 console.log( "the diameter",circle.calcDiameter());
 console.log("the perimeter",circle.calperimeter());
-
